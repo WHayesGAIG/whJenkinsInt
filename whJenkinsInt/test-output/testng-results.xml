@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="420" started-at="2018-12-07T13:59:11Z" finished-at="2018-12-07T13:59:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="420" started-at="2018-12-07T13:59:11Z" finished-at="2018-12-07T13:59:12Z">
+      <class name="whTestPkg.BasicExtentReportExample">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:whTestPkg.BasicExtentReportExample@3bfdc050]" name="setUP" is-config="true" duration-ms="146" started-at="2018-12-07T13:59:11Z" finished-at="2018-12-07T13:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="whTestReport()[pri:0, instance:whTestPkg.BasicExtentReportExample@3bfdc050]" name="whTestReport" duration-ms="17" started-at="2018-12-07T13:59:11Z" finished-at="2018-12-07T13:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whTestReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:whTestPkg.BasicExtentReportExample@3bfdc050]" name="tearDown" is-config="true" duration-ms="246" started-at="2018-12-07T13:59:11Z" finished-at="2018-12-07T13:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- whTestPkg.BasicExtentReportExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
