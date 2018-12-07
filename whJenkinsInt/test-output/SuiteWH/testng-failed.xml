@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteWH]">
+  <test thread-count="5" name="TestWH1(failed)">
     <classes>
       <class name="whTestPkg.tstGoogleSearch">
         <methods>
@@ -12,5 +12,5 @@
         </methods>
       </class> <!-- whTestPkg.tstGoogleSearch -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestWH1(failed) -->
+</suite> <!-- Failed suite [SuiteWH] -->

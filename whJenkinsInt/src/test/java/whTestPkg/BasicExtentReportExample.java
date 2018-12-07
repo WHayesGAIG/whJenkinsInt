@@ -1,5 +1,7 @@
 package whTestPkg;
 
+import static org.testng.Assert.assertTrue;
+
 import java.io.IOException;
 
 import org.testng.annotations.AfterTest;
@@ -45,6 +47,27 @@ public class BasicExtentReportExample {
         test.addScreenCaptureFromPath("whscreenshot.png");
 		
 	}
+	
+	@Test
+	public void sampleTest0() {
+		assertTrue(1 < 2);
+	}
+
+	@Test
+	public void sampleTest1() {
+		assertTrue(1 < 2);
+	}
+
+	@Test
+	public void sampleTest2() {
+		assertTrue(1 < 2);
+	}
+
+	@Test
+	public void sampleTest4() {
+		assertTrue(1 < 2);
+	}
+	
 	
 	@AfterTest
 	public void tearDown() {
