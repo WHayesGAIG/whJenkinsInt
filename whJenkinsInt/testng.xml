@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SuiteWH">
-  <test thread-count="5" name="TestWH1">
+<suite name="SuiteWHayes">
+  <test thread-count="5" name="WandaTestExample">
     <classes>
-      <class name="whTestPkg.tstGoogleSearch"/>
+      <class name="whTestPkg.WandaTestExample"/>
     </classes>
-  </test> <!-- TestWH1 -->
-</suite> <!-- SuiteWH -->
+  </test> <!-- WandaTestExample -->
+</suite> <!-- SuiteWHayes -->

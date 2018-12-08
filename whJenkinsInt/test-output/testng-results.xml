@@ -1,149 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite_AllTest" duration-ms="10234" started-at="2018-12-07T16:48:34Z" finished-at="2018-12-07T16:48:44Z">
+  <suite started-at="2018-12-08T10:02:38Z" name="Default suite" finished-at="2018-12-08T10:02:39Z" duration-ms="61">
     <groups>
     </groups>
-    <test name="TestAllTest" duration-ms="10234" started-at="2018-12-07T16:48:34Z" finished-at="2018-12-07T16:48:44Z">
-      <class name="whTestPkg.BasicExtentReportExample">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="setUP" is-config="true" duration-ms="723" started-at="2018-12-07T16:48:34Z" finished-at="2018-12-07T16:48:35Z">
+    <test started-at="2018-12-08T10:02:38Z" name="Default test" finished-at="2018-12-08T10:02:39Z" duration-ms="61">
+      <class name="whTestPkg.TestAllPassAssertions">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:38Z" name="setUP" finished-at="2018-12-08T10:02:38Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="setUpTest" is-config="true" duration-ms="3626" started-at="2018-12-07T16:48:35Z" finished-at="2018-12-07T16:48:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="sampleTest0()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="sampleTest0" duration-ms="7" started-at="2018-12-07T16:48:38Z" finished-at="2018-12-07T16:48:38Z">
+        <test-method signature="sampleTest0()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:38Z" name="sampleTest0" finished-at="2018-12-08T10:02:39Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest0 -->
-        <test-method status="PASS" signature="sampleTest1()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="sampleTest1" duration-ms="1" started-at="2018-12-07T16:48:38Z" finished-at="2018-12-07T16:48:38Z">
+        <test-method signature="sampleTest1()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:39Z" name="sampleTest1" finished-at="2018-12-08T10:02:39Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest1 -->
-        <test-method status="PASS" signature="sampleTest2()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="sampleTest2" duration-ms="1" started-at="2018-12-07T16:48:38Z" finished-at="2018-12-07T16:48:38Z">
+        <test-method signature="sampleTest2()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:39Z" name="sampleTest2" finished-at="2018-12-08T10:02:39Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest2 -->
-        <test-method status="PASS" signature="sampleTest4()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="sampleTest4" duration-ms="1" started-at="2018-12-07T16:48:38Z" finished-at="2018-12-07T16:48:38Z">
+        <test-method signature="sampleTest4()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:39Z" name="sampleTest4" finished-at="2018-12-08T10:02:39Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest4 -->
-        <test-method status="PASS" signature="whTestReport()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="whTestReport" duration-ms="52" started-at="2018-12-07T16:48:38Z" finished-at="2018-12-07T16:48:38Z">
+        <test-method signature="whTestReport()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:39Z" name="whTestReport" finished-at="2018-12-08T10:02:39Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whTestReport -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:whTestPkg.BasicExtentReportExample@6093dd95]" name="tearDown" is-config="true" duration-ms="1504" started-at="2018-12-07T16:48:40Z" finished-at="2018-12-07T16:48:42Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:whTestPkg.TestAllPassAssertions@175b9425]" started-at="2018-12-08T10:02:39Z" name="tearDown" finished-at="2018-12-08T10:02:39Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="tearDownTest" is-config="true" duration-ms="2314" started-at="2018-12-07T16:48:42Z" finished-at="2018-12-07T16:48:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-      </class> <!-- whTestPkg.BasicExtentReportExample -->
-      <class name="whTestPkg.tstGoogleSearch">
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="googleSearch" duration-ms="1855" started-at="2018-12-07T16:48:38Z" finished-at="2018-12-07T16:48:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="sampleTest0()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="sampleTest0" duration-ms="0" started-at="2018-12-07T16:48:40Z" finished-at="2018-12-07T16:48:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest0 -->
-        <test-method status="FAIL" signature="sampleTest1()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="sampleTest1" duration-ms="4" started-at="2018-12-07T16:48:40Z" finished-at="2018-12-07T16:48:40Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at whTestPkg.tstGoogleSearch.sampleTest1(tstGoogleSearch.java:49)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest1 -->
-        <test-method status="PASS" signature="sampleTest2()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="sampleTest2" duration-ms="1" started-at="2018-12-07T16:48:40Z" finished-at="2018-12-07T16:48:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest2 -->
-        <test-method status="FAIL" signature="sampleTest4()[pri:0, instance:whTestPkg.tstGoogleSearch@5622fdf]" name="sampleTest4" duration-ms="1" started-at="2018-12-07T16:48:40Z" finished-at="2018-12-07T16:48:40Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at whTestPkg.tstGoogleSearch.sampleTest4(tstGoogleSearch.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sampleTest4 -->
-      </class> <!-- whTestPkg.tstGoogleSearch -->
-    </test> <!-- TestAllTest -->
-  </suite> <!-- Suite_AllTest -->
+      </class> <!-- whTestPkg.TestAllPassAssertions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
