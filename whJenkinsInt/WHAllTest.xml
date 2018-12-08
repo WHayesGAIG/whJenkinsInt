@@ -3,7 +3,7 @@
 <suite name="Suite_AllTest">
   <test thread-count="5" name="TestAllTest">
     <classes>
-      <class name="whTestPkg.BasicExtentReportExample"/>
+      <class name="whTestPkg.WandaTestExample"/>
       <class name="whTestPkg.tstGoogleSearch"/>
     </classes>
   </test> <!-- TestAllTest -->

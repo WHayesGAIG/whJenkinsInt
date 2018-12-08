@@ -3,7 +3,7 @@
 <suite name="Suite_WHExtRpt">
   <test thread-count="5" name="Test_ExtRpt">
     <classes>
-      <class name="whTestPkg.BasicExtentReportExample"/>
+      <class name="whTestPkg.WandaTestExample"/>
     </classes>
   </test> <!-- Test_ExtRpt -->
 </suite> <!-- Suite_WHExtRpt -->
