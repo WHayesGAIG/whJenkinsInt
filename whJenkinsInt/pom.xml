@@ -59,7 +59,7 @@
 				<version>3.0.0-M1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${whichtestsuite)</suiteXmlFile>
+						<suiteXmlFile>${whichtestsuite}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
