@@ -62,7 +62,7 @@ public class tstGoogleSearch {
 	@AfterTest
 	public void tearDownTest() {
 		driver.close();
-		System.out.println("Test Finished");
+		System.out.println("Whayes. Test Finished");
 		
 	}
 }
