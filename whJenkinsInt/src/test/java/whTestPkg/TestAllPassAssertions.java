@@ -29,7 +29,7 @@ public class TestAllPassAssertions {
 	}
 	
 	@Test
-	public void sampleTest0() {
+	public void wandaSampleTest0() {
 		assertTrue(1 < 2);
 	}
 
